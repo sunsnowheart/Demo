@@ -1,0 +1,146 @@
+
+-----------------------------------------
+             SmartPathNetLib
+    "Linux.Vehicle.AARCH64.9.6.2266"
+-----------------------------------------
+
+SearchPara has been saved to: /data/LogisticsBinaryType1.1/binary/tools/../../../datalog/path/guangzhouguojijiankangyizhan/2022-10-19/2022-10-19 00.08.03.818_B1B_183_SearchPara.par
+
+StartPoint: 113.446393196933,23.391017645191,308.540008544922
+EndPoint: 113.446566280000,23.390972080000,31.900000000000
+SearchMode: 0
+StartRegionID: 0
+EndRegionID: 0
+bReplan:0
+
+Adding static break line infomation:
+  /data/LogisticsBinaryType1.1/binary/tools/../../../datalog/mapmanage/guangzhouguojijiankangyizhan/jkyzv3/default/vector/BreakLinesInfo.dyn was opened OK...
+Saveing all broken RoadIDs:
+  Save all broken RoadIDs nums=0, saved to:/data/LogisticsBinaryType1.1/binary/tools/../../../datalog/mapmanage/guangzhouguojijiankangyizhan/jkyzv3/default/vector/BreakLinesInfo.dyn
+  Region map No.0, add break lines nums:0
+
+SearchMode=0, StartEnd OnRoad path planning start...
+
+StartRegionID=0, EndRegionID=0
+Multi-Region Map nums == 1, path search in normal...
+Single RegionMap searching, RegionMapID=0
+
+Path search start...
+Path pre-search deal time:0.03ms
+GetAllNearestPointsOnPathNet, Start Mode...
+EdgeID=275. Dis=18.72
+EdgeID=276. Dis=22.44
+EdgeID=397. Dis=15.99
+EdgeID=398. Dis=11.81
+EdgeID=399. Dis=14.69
+EdgeID=400. Dis=10.25
+EdgeID=401. Dis=17.46
+EdgeID=402. Dis=14.11
+EdgeID=403. Dis=0.30
+  EdgeID=403, Dis=0.30, PointIndex=39
+EdgeID=404. Dis=0.26
+  EdgeID=404, Dis=0.26, PointIndex=2
+EdgeID=513. Dis=18.72
+EdgeID=514. Dis=22.44
+EdgeID=518. Dis=18.42
+EdgeID=519. Dis=22.23
+Distance to NearestPoint:
+  Dis=0.49
+  Dis=0.00
+Find all nearest points nums=2
+  113.44639596, 23.39101683, 127.51160850
+  113.44639249, 23.39101993, 305.50658733
+GetAllNearestPointsOnPathNet, End Mode...
+EdgeID=273. Dis=14.75543985
+EdgeID=274. Dis=16.37268028
+EdgeID=275. Dis=7.82838300
+EdgeID=276. Dis=10.98721251
+EdgeID=397. Dis=0.28908568
+  EdgeID=397, Dis=0.28908568, PointIndex=4
+EdgeID=398. Dis=4.43520886
+  EdgeID=398, Dis=4.43520886, PointIndex=31
+EdgeID=399. Dis=4.76213475
+  EdgeID=399, Dis=4.76213475, PointIndex=15
+EdgeID=400. Dis=6.75058448
+EdgeID=401. Dis=20.51466936
+EdgeID=402. Dis=20.95116616
+EdgeID=403. Dis=13.98132389
+EdgeID=404. Dis=4.76213475
+  EdgeID=404, Dis=4.76213475, PointIndex=38
+EdgeID=406. Dis=9.45926287
+EdgeID=407. Dis=12.35470029
+EdgeID=408. Dis=17.10204775
+EdgeID=409. Dis=16.78722314
+EdgeID=513. Dis=9.99671321
+EdgeID=514. Dis=14.20088898
+EdgeID=518. Dis=13.65580820
+EdgeID=519. Dis=16.42511789
+Distance to NearestPoint:
+  Dis=0.00000000
+Find all nearest points nums=1
+  113.44656370, 23.39097101, 29.70051162
+Now we use StartMulDirEndOptOnceSearch method by auto...
+
+StartDisParamSearch for all:
+  start_distance_threshold=5.00
+StartPart Results:
+LineID=404
+(2):0.26,305.51  (3):0.79,305.51  (1):1.28,305.51  (4):1.82,309.04  (0):2.31,305.51  (5):2.84,309.04  (6):3.87,309.04  (7):4.90,312.55  
+LineID=403
+(39):0.30,127.51  (40):1.05,127.51  (38):1.42,124.09  (41):2.31,127.51  (37):2.59,124.09  (36):4.27,120.20  
+
+StartDirParamSearch for all the StatisDisParam:
+  start_angle_threshold=90.00
+  Satisfied Edges: 404, (2), 0.26, 305.51
+Now ConstructLinksOfUGVStartSegments...
+  All UAV start segments links:
+  Single:404
+Erase the over single LINKs:
+Start calc the new shortest PARAs for all START segment LINKs:
+All the START search PARA is update now:
+  EdgeID=404, PointIndex=2, ShortestDis=0.26
+EndParamSearch for best:
+  end_distance_threshold=5.00
+  end_angle_threshold=90.00
+  D_A_sat:353, 0, 4.76, 41.78, 9.88
+  D_A_sat:355, 15, 4.76, 37.07, 5.17
+  D_A_sat:360, 37, 4.95, 40.65, 8.75
+  Satisfied Edges index:
+    353: Dis=0.26, NearestPointIndex=4
+    355: Dis=45.32, NearestPointIndex=14
+    360: Dis=45.32, NearestPointIndex=37
+  The best params:
+    PathSegIndex=353
+    PointIndex=4
+    Dis=0.00
+EndPara calc time:1.41ms
+
+[1] Search start...
+EndPointPart:
+113.44656628, 23.39097208, 31.90
+EdgeID=397, nPointIndex=4, dDisMin=0.00
+StartPointPart:
+113.44639320, 23.39101765, 308.54
+EdgeID=404, nPointIndex=2, dDisMin=263.63
+Algorithm search time:0.08ms
+Path calc time:0.11ms
+[1] Searched Path Length=22.60, point nums=42
+Oringin cost=22.60, Vehicle position to path cost=0.26
+
+Min length path length=23.13, point nums=41
+Lane Level Planing for route...
+  LeftTurnLaneLevelPlanning...
+  LeftTurnChangeLaneNum=0
+  LaneKeepPlanning..
+  LaneKeepPlanningNum=0
+Region total search time:92.21ms
+
+Path past-search start...
+Add DP park point flag nums: 2
+Path past-search deal time:8.32ms
+---------------------------------
+Total SearchInterRegionPathImpl search time:100.68ms
+SearchInterRegionPathAction search finished, time(ms)=101.30
+Path distance(m)=22.60, time(s)=30.35
+Static path search find point nums=41
+ResultPath has been saved to: /data/LogisticsBinaryType1.1/binary/tools/../../../datalog/path/guangzhouguojijiankangyizhan/2022-10-19/2022-10-19 00.08.03.818_B1B_183_SearchResult.csv
